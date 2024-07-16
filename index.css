@@ -95,9 +95,8 @@ body {
 }
 
 @media only screen and (max-width: 390px){
-    .meme-div{
-        margin-top: 0;
-        margin-bottom: 0;
+    .save-btn{
+        display: none;
     }
     .memePic{
     border-radius: 0;
@@ -107,5 +106,9 @@ body {
     }
     .save-btn{
         display: none;
+    }
+    .meme-div{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
